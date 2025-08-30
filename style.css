@@ -2,6 +2,7 @@
     scrollbar-width: none;
     user-select: none;
     box-sizing: border-box;
+    margin: none;
 }
 
 body {
@@ -381,7 +382,6 @@ top: 30%;
     position: absolute;
     top: 50%;
     font-size: 3rem;
-    z-index: 3;
 animation: sun 1s ease-in-out infinite alternate-reverse;
 }
 @keyframes sun {
@@ -404,4 +404,5 @@ color: green;
     font-size: 1rem;
     font-weight: bold;
     color: whitesmoke;
+
 }
