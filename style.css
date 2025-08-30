@@ -1,7 +1,6 @@
 * {
     scrollbar-width: none;
     user-select: none;
-    box-sizing: border-box;
     margin: none;
 }
 
@@ -406,3 +405,4 @@ color: green;
     color: whitesmoke;
 
 }
+
