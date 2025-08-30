@@ -388,7 +388,7 @@ animation: sun 1s ease-in-out infinite alternate-reverse;
 left: 0%;
     }
     to{
-left: 85%;
+left: 80%;
 color: green;
     }
 }
@@ -405,5 +405,6 @@ color: green;
     color: whitesmoke;
 
 }
+
 
 
