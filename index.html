@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="/1729458167412.jpg">
+    <meta property="og:site_name" content="Guessing Game">
+    <title>number gueser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="blackbg">
+    <h2 class="head">Number Guests</h2>
+    <span class="scores">Correct: 
+        <span id="score">0</span> </span>
+    <span class="trials">Wrong: 
+        <span id="wrong">0</span> </span>
+    <span class="trial">Attempts: 
+        <span id="total">0</span> </span>
+
+    <span id="commentator">commentator</span>
+    <span id="sticker">😄</span>
+
+<!-- rules -->
+    <div id="rules">Pick a number from (1,2,or 3). The computer will also choose. Match to win! You have 10 chances-click Restart to play again.😄
+        <br>
+        <button id="okay" onclick="start()">Start</button>
+    </div>
+
+    <!-- the sun moving animation -->
+<span id="sun">🌞</span>
+
+    <!-- correct answer and buttons container -->
+    <div class="container">
+        <br>
+        <span id="ai-comment">The correct number is: <span id="ai"></span>
+        </span>
+
+        <!-- 1 -->
+        <button id="enterone" type="button" onclick="onefunc()">1</button>
+<!-- 2 -->
+        <button id="entertwo" type="button" onclick="twofunc()">2</button>
+<!-- 3 -->
+        <button id="enterthree" type="button" onclick="threefunc()">3</button>
+
+    </div>
+
+    <!-- alert div for total score -->
+     
+    <div id="anouncement">
+        
+        <span class="over">Game over</span>
+        <br><br>
+        <span id="correct">Correct: <span id="scoress">0</span></span>
+        <br><br>
+        <span id="wrong">Wrong: <span id="wrongss">0</span></span>
+        <br><br>
+        <span id="total_attempts">Total Attempts: <span id="totalss">10</span></span>
+        <br><br>
+        <span id="motivate">You Tried 😀</span>
+        <br>
+        <!-- restart button -->
+         <a href="index.html">
+        <button id="reset-btn" type="button" onclick="clear()">Restart</button>
+    </a>
+    </div>
+    </div>
+
+    <i id="owner">By: Basit Abiola Nurudeen</i>
+    <script src="app.js"></script>
+</body>  
+</html>
